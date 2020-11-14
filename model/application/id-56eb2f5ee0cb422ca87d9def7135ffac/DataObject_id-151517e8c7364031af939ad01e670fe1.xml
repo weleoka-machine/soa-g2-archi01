@@ -1,0 +1,11 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="moduleObject"
+    id="id-151517e8c7364031af939ad01e670fe1">
+  <properties
+      key="code"/>
+  <properties
+      key="description"/>
+  <properties
+      key="status"/>
+</archimate:DataObject>

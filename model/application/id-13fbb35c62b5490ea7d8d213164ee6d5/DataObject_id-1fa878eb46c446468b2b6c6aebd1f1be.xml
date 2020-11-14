@@ -1,0 +1,15 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="resultObject"
+    id="id-1fa878eb46c446468b2b6c6aebd1f1be">
+  <properties
+      key="ssn"/>
+  <properties
+      key="module"/>
+  <properties
+      key="date"/>
+  <properties
+      key="grade"/>
+  <properties
+      key="course_code"/>
+</archimate:DataObject>

@@ -1,11 +1,11 @@
-<archimate:BusinessObject
+<archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="student"
-    id="id-a57d1b99347f4019b56bd7f2be30b92c">
+    name="studentObject"
+    id="id-c0e9b91c4c7a47148e517ddef5a40082">
   <properties
-      key="pnr"
+      key="ssn"
       value="string"/>
   <properties
       key="username"
       value="string"/>
-</archimate:BusinessObject>
+</archimate:DataObject>
