@@ -1,0 +1,14 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="modul"
+    id="id-418f44edfa2942e098db45cc21919137">
+  <properties
+      key="kod"
+      value="string"/>
+  <properties
+      key="desription"
+      value="string"/>
+  <properties
+      key="status"
+      value="string"/>
+</archimate:BusinessObject>

@@ -1,0 +1,11 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="student"
+    id="id-a57d1b99347f4019b56bd7f2be30b92c">
+  <properties
+      key="pnr"
+      value="string"/>
+  <properties
+      key="username"
+      value="string"/>
+</archimate:BusinessObject>
