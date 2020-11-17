@@ -446,8 +446,8 @@
             href="RealizationRelationship_id-804d07e94f624cf587761c62476f084e.xml#id-804d07e94f624cf587761c62476f084e"/>
       </sourceConnections>
       <bounds
-          x="386"
-          y="66"
+          x="387"
+          y="38"
           width="180"
           height="132"/>
       <children
@@ -475,6 +475,17 @@
       <archimateElement
           xsi:type="archimate:Node"
           href="Node_id-0395c31c3ae440f68785adedb87cac30.xml#id-0395c31c3ae440f68785adedb87cac30"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="id-894f5253f9684acfbfed39a0a87da02b"
+        textAlignment="1"
+        content="The data objects from API-layer and onwards to the App UI are the same:&#xA;- studentObject;&#xA;- moduleObject;&#xA;- resultObject;&#xA;- assignmentObject;">
+      <bounds
+          x="361"
+          y="182"
+          width="260"
+          height="104"/>
     </children>
   </children>
   <children
