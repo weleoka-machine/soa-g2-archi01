@@ -1,0 +1,17 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="assignmentObject"
+    id="id-c87ce9ba62684dceae6abeab8146372a">
+  <properties
+      key="assignmentID"/>
+  <properties
+      key="studentID"/>
+  <properties
+      key="grade"/>
+  <properties
+      key="moduleID"/>
+  <properties
+      key="teacherID"/>
+  <properties
+      key="createdAt"/>
+</archimate:DataObject>

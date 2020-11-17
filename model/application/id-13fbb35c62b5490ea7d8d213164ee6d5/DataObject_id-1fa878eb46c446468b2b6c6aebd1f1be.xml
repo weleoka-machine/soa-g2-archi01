@@ -1,7 +1,8 @@
 <archimate:DataObject
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="resultObject"
-    id="id-1fa878eb46c446468b2b6c6aebd1f1be">
+    id="id-1fa878eb46c446468b2b6c6aebd1f1be"
+    documentation="ssn&#xA;date;&#xA;grade;&#xA;course_code;&#xA;">
   <properties
       key="ssn"/>
   <properties
