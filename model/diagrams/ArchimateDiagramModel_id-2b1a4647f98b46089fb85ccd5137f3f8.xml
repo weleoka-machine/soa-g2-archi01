@@ -17,8 +17,8 @@
           href="CompositionRelationship_id-c755422cc4cf474ba2bb7df0b3226316.xml#id-c755422cc4cf474ba2bb7df0b3226316"/>
     </sourceConnections>
     <bounds
-        x="540"
-        y="264"
+        x="488"
+        y="402"
         width="165"
         height="109"/>
     <children
@@ -117,10 +117,19 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-94849b95d67b42b1ac59efbb76324e2a.xml#id-94849b95d67b42b1ac59efbb76324e2a"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-90ab649ee96045e4836867eb1d711d94"
+        source="id-4940aa2e858048768b0c343647ee2c83"
+        target="id-1c00cb9417b4461d9b1f0568d2304d03">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-a90944e91ca04a92b1932b4db256f774.xml#id-a90944e91ca04a92b1932b4db256f774"/>
+    </sourceConnections>
     <bounds
         x="216"
         y="264"
-        width="301"
+        width="437"
         height="108"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -149,13 +158,26 @@
             href="TriggeringRelationship_id-d80a85412bb2418287e42b7b8da5d707.xml#id-d80a85412bb2418287e42b7b8da5d707"/>
       </sourceConnections>
       <bounds
-          x="156"
+          x="299"
           y="36"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessFunction"
           href="BusinessFunction_id-cbaf8706b1434be3a1d7c660417949f3.xml#id-cbaf8706b1434be3a1d7c660417949f3"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-1c00cb9417b4461d9b1f0568d2304d03"
+        targetConnections="id-90ab649ee96045e4836867eb1d711d94">
+      <bounds
+          x="159"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessFunction"
+          href="BusinessFunction_id-06faef7577f44107b781ead2c5585b8b.xml#id-06faef7577f44107b781ead2c5585b8b"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessProcess"
@@ -330,5 +352,16 @@
     <archimateElement
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_id-3b63488fd04c4c31ab7816fe2ef9f849.xml#id-3b63488fd04c4c31ab7816fe2ef9f849"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-5ca4c17916f647039d7ba45cdc0136b8"
+      textAlignment="1"
+      content="Notes:&#xA;- consideration for preliminary grades;&#xA;- optional extra would be if module/course creation was done in examnation-service and then propagated to Canvas etc.">
+    <bounds
+        x="32"
+        y="410"
+        width="279"
+        height="94"/>
   </children>
 </archimate:ArchimateDiagramModel>
