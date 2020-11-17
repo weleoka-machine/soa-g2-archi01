@@ -88,10 +88,19 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-ef91e397a21141f2927411a0cebc11a5.xml#id-ef91e397a21141f2927411a0cebc11a5"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-d3f72bb227a44b05bd3d2c181a498e5b"
+        source="id-0240137b2c414e2aa6f32afec7c93585"
+        target="id-ab4aa57f63934bc2aae405ee2ef79ede">
+      <archimateRelationship
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-b1dd54e4a133481aa7652916faea0ea1.xml#id-b1dd54e4a133481aa7652916faea0ea1"/>
+    </sourceConnections>
     <bounds
         x="5"
         y="115"
-        width="867"
+        width="716"
         height="316"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -270,6 +279,19 @@
           xsi:type="archimate:ApplicationFunction"
           href="ApplicationFunction_id-bec1afc5de64409d95c43f979a016a0a.xml#id-bec1afc5de64409d95c43f979a016a0a"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-ab4aa57f63934bc2aae405ee2ef79ede"
+        targetConnections="id-d3f72bb227a44b05bd3d2c181a498e5b id-22849194d31349d2aa5f9aa5e97b364c">
+      <bounds
+          x="359"
+          y="208"
+          width="274"
+          height="30"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationService"
+          href="ApplicationService_id-b39c48e312a547d085641b410baa505d.xml#id-b39c48e312a547d085641b410baa505d"/>
+    </children>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-e5adecaba0cc40c9996b609d761f4f36.xml#id-e5adecaba0cc40c9996b609d761f4f36"/>
@@ -343,8 +365,8 @@
           href="ServingRelationship_id-e4f53014a5024dea8579da3ae47d81e1.xml#id-e4f53014a5024dea8579da3ae47d81e1"/>
     </sourceConnections>
     <bounds
-        x="126"
-        y="497"
+        x="22"
+        y="580"
         width="120"
         height="55"/>
     <archimateElement
@@ -408,7 +430,7 @@
           href="AssociationRelationship_id-63cf220b712c42c1a9808e0d1e879a3c.xml#id-63cf220b712c42c1a9808e0d1e879a3c"/>
     </sourceConnections>
     <bounds
-        x="-1"
+        x="106"
         y="451"
         width="120"
         height="47"/>
@@ -420,16 +442,16 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-8179abc3e26a43fe96776b79bc5de0b6"
       textAlignment="1"
-      content="Do we ever set grades from here to Canvas? Maybe assume: No for first version.">
+      content="Do we ever set grades from examination-service to Canvas?">
     <sourceConnections
         id="id-38404e3e3fe742e4963a683027f85e50"
         source="id-8179abc3e26a43fe96776b79bc5de0b6"
         target="id-a42dcea037d04a5b923162831e7bfe7c"/>
     <bounds
-        x="43"
-        y="20"
-        width="185"
-        height="80"/>
+        x="58"
+        y="38"
+        width="168"
+        height="55"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -445,8 +467,8 @@
           href="ServingRelationship_id-9ca7482285c84188b53ef138353417f9.xml#id-9ca7482285c84188b53ef138353417f9"/>
     </sourceConnections>
     <bounds
-        x="619"
-        y="584"
+        x="601"
+        y="580"
         width="120"
         height="55"/>
     <archimateElement
@@ -473,5 +495,20 @@
     <archimateElement
         xsi:type="archimate:DataObject"
         href="DataObject_id-c87ce9ba62684dceae6abeab8146372a.xml#id-c87ce9ba62684dceae6abeab8146372a"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-5b649d66a57a4f3a9d5d1603a00231f8"
+      textAlignment="1"
+      content="Do preliminary grades handling actually fit our priority buisness assignments?">
+    <sourceConnections
+        id="id-22849194d31349d2aa5f9aa5e97b364c"
+        source="id-5b649d66a57a4f3a9d5d1603a00231f8"
+        target="id-ab4aa57f63934bc2aae405ee2ef79ede"/>
+    <bounds
+        x="675"
+        y="242"
+        width="213"
+        height="61"/>
   </children>
 </archimate:ArchimateDiagramModel>
